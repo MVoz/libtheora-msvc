@@ -1,0 +1,45 @@
+﻿Сборка начата Ср 31 07 19 23:26:02.
+     1>Проект "E:\tools\vcpkg\buildtrees\libtheora\win32\VS2010\dump_video\dump_video_dynamic.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>_PrepareForClean:
+         Файл "x64\Release\dump_video.tlog\dump_video.lastbuildstate" удаляется.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (dump_video_static.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+       InitializeBuildStatus:
+         Создание "x64\Release\dump_video.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       VcpkgTripletSelection:
+         Using triplet "x64-windows-static" from "E:\tools\vcpkg\installed\x64-windows-static\"
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I..\..\..\include /I..\..\..\..\libogg\include /I"E:\tools\vcpkg\installed\x64-windows-static\include" /I"..\..\..\..\libogg-1.2.0\include" /I..\..\..\..\ogg\include /I..\..\..\..\..\..\..\core\ogg\libogg\include /I"E:\tools\vcpkg\installed\x64-windows-static\include" /Zi /nologo /W3 /WX- /O2 /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TC /errorReport:prompt ..\..\..\examples\dump_video.c ..\..\getopt.c ..\..\getopt1.c
+         dump_video.c
+     1>..\..\..\examples\dump_video.c(67): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>..\..\..\examples\dump_video.c(111): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\..\examples\dump_video.c(114): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\..\examples\dump_video.c(179): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\..\examples\dump_video.c(181): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\..\examples\dump_video.c(523): warning C4244: =: преобразование "double" в "long", возможна потеря данных
+     1>..\..\..\examples\dump_video.c(263): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(207): note:  см. объявление "fopen"
+     1>..\..\..\examples\dump_video.c(291): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(207): note:  см. объявление "fopen"
+     1>..\..\..\examples\dump_video.c(513): warning C4244: инициализация: преобразование "double" в "long", возможна потеря данных
+         getopt.c
+         getopt1.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\tools\vcpkg\buildtrees\libtheora\win32\VS2010\x64\Release\dump_video.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\..\libogg\win32\VS2010\x64\Release /LIBPATH:..\x64\Release /LIBPATH:"E:\tools\vcpkg\installed\x64-windows-static\lib" /LIBPATH:"..\..\..\..\libogg-1.2.0\win32\VS2010\x64\Release" /LIBPATH:..\..\..\..\ogg\win32\VS2010\x64\Release /LIBPATH:..\..\..\..\..\..\..\core\ogg\libogg\win32\VS2010\x64\Release ogg.lib libtheora.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "E:\tools\vcpkg\installed\x64-windows-static\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"E:\tools\vcpkg\buildtrees\libtheora\win32\VS2010\x64\Release\dump_video.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"E:\tools\vcpkg\buildtrees\libtheora\win32\VS2010\x64\Release\dump_video.lib" /MACHINE:X64 x64\Release\dump_video.obj
+         x64\Release\getopt.obj
+         x64\Release\getopt1.obj
+         E:\tools\vcpkg\buildtrees\libtheora\win32\VS2010\x64\Release\libtheora.lib
+         Создание кода
+         All 18 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Создание кода завершено
+         dump_video_dynamic.vcxproj -> E:\tools\vcpkg\buildtrees\libtheora\win32\VS2010\x64\Release\dump_video.exe
+       AppLocalFromInstalled:
+         C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "E:\tools\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\tools\vcpkg\buildtrees\libtheora\win32\VS2010\x64\Release\dump_video.exe" "E:\tools\vcpkg\installed\x64-windows-static\bin" "x64\Release\dump_video.tlog\dump_video.write.1u.tlog" "x64\Release\vcpkg.applocal.log"
+         E:\tools\vcpkg\buildtrees\libtheora\win32\VS2010\x64\Release\VCRUNTIME140.dll
+       FinalizeBuildStatus:
+         Файл "x64\Release\dump_video.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Release\dump_video.tlog\dump_video.lastbuildstate".
+     1>Сборка проекта "E:\tools\vcpkg\buildtrees\libtheora\win32\VS2010\dump_video\dump_video_dynamic.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:21.91

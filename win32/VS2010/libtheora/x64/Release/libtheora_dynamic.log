@@ -1,0 +1,205 @@
+﻿Сборка начата Ср 31 07 19 23:25:28.
+     1>Проект "E:\tools\vcpkg\buildtrees\libtheora\win32\VS2010\libtheora\libtheora_dynamic.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>_PrepareForClean:
+         Файл "x64\Release\libtheora.tlog\libtheora.lastbuildstate" удаляется.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (libtheora_static.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+       InitializeBuildStatus:
+         Создание "x64\Release\libtheora.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       VcpkgTripletSelection:
+         Using triplet "x64-windows-static" from "E:\tools\vcpkg\installed\x64-windows-static\"
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I..\..\..\include /I..\..\..\lib /I..\..\..\..\libogg\include /I..\..\..\..\..\..\..\core\ogg\libogg\include\ /I"E:\tools\vcpkg\installed\x64-windows-static\include" /I"..\..\..\..\libogg-1.2.0\include" /I..\..\..\..\ogg\include /I..\..\..\..\..\..\..\core\ogg\libogg\include /I"E:\tools\vcpkg\installed\x64-windows-static\include" /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /GL /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _BIND_TO_CURRENT_CRT_VERSION /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D LIBTHEORA_EXPORTS /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _UNICODE /D UNICODE /GF /Gm- /MD /GS- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TC /wd4244 /wd4267 /wd4057 /wd4100 /wd4245 /errorReport:prompt ..\..\..\lib\analyze.c ..\..\..\lib\encapiwrapper.c ..\..\..\lib\encfrag.c ..\..\..\lib\encinfo.c ..\..\..\lib\encode.c ..\..\..\lib\enquant.c ..\..\..\lib\fdct.c ..\..\..\lib\huffenc.c ..\..\..\lib\mathops.c ..\..\..\lib\mcenc.c ..\..\..\lib\rate.c ..\..\..\lib\tokenize.c ..\..\..\lib\x86_vc\mmxencfrag.c ..\..\..\lib\x86_vc\mmxfdct.c ..\..\..\lib\x86_vc\x86cpu.c ..\..\..\lib\x86_vc\x86enc.c ..\..\..\lib\apiwrapper.c ..\..\..\lib\bitpack.c ..\..\..\lib\decapiwrapper.c ..\..\..\lib\decinfo.c ..\..\..\lib\dequant.c ..\..\..\lib\fragment.c ..\..\..\lib\huffdec.c ..\..\..\lib\info.c ..\..\..\lib\internal.c ..\..\..\lib\state.c ..\..\..\lib\x86_vc\mmxfrag.c ..\..\..\lib\x86_vc\mmxidct.c ..\..\..\lib\x86_vc\mmxstate.c ..\..\..\lib\x86_vc\x86state.c
+         analyze.c
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(275): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(276): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(277): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>..\..\..\lib\analyze.c(109): warning C4018: >=: несоответствие типов со знаком и без знака
+     1>..\..\..\lib\analyze.c(591): warning C4018: <: несоответствие типов со знаком и без знака
+     1>..\..\..\lib\analyze.c(2383): warning C4456: объявление "refi" скрывает предыдущее локальное объявление
+         ..\..\..\lib\analyze.c(2322): note:  см. объявление "refi"
+         encapiwrapper.c
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(275): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(276): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(277): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         encfrag.c
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(275): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(276): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(277): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         encinfo.c
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(275): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(276): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(277): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         encode.c
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(275): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(276): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(277): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>..\..\..\lib\encode.c(575): warning C4389: !=: несоответствие типов со знаком и без знака
+     1>..\..\..\lib\encode.c(1031): warning C4018: >=: несоответствие типов со знаком и без знака
+     1>..\..\..\lib\encode.c(1040): warning C4018: >=: несоответствие типов со знаком и без знака
+     1>..\..\..\lib\encode.c(1448): warning C4018: >=: несоответствие типов со знаком и без знака
+     1>..\..\..\lib\encode.c(1596): warning C4018: <: несоответствие типов со знаком и без знака
+     1>..\..\..\lib\encode.c(1605): warning C4018: <: несоответствие типов со знаком и без знака
+     1>..\..\..\lib\encode.c(1607): warning C4018: <: несоответствие типов со знаком и без знака
+     1>..\..\..\lib\encode.c(1614): warning C4018: <: несоответствие типов со знаком и без знака
+     1>..\..\..\lib\encode.c(1616): warning C4018: <: несоответствие типов со знаком и без знака
+         enquant.c
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(275): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(276): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(277): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         fdct.c
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(275): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(276): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(277): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         huffenc.c
+         mathops.c
+         mcenc.c
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(275): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(276): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(277): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>..\..\..\lib\mcenc.c(657): warning C4018: <: несоответствие типов со знаком и без знака
+         rate.c
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(275): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(276): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(277): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>..\..\..\lib\rate.c(268): warning C4018: <: несоответствие типов со знаком и без знака
+     1>..\..\..\lib\rate.c(365): warning C4018: <: несоответствие типов со знаком и без знака
+     1>..\..\..\lib\rate.c(385): warning C4018: <: несоответствие типов со знаком и без знака
+     1>..\..\..\lib\rate.c(489): warning C4018: <: несоответствие типов со знаком и без знака
+     1>..\..\..\lib\rate.c(1082): warning C4018: <: несоответствие типов со знаком и без знака
+     1>..\..\..\lib\rate.c(1120): warning C4018: <: несоответствие типов со знаком и без знака
+         tokenize.c
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(275): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(276): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(277): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         mmxencfrag.c
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\x86_vc\../state.h(275): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\x86_vc\../state.h(276): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\x86_vc\../state.h(277): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         mmxfdct.c
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\x86_vc\../state.h(275): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\x86_vc\../state.h(276): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\x86_vc\../state.h(277): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         x86cpu.c
+         x86enc.c
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\x86_vc\../state.h(275): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\x86_vc\../state.h(276): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\x86_vc\../state.h(277): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         apiwrapper.c
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(275): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(276): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(277): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         bitpack.c
+         decapiwrapper.c
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(275): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(276): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(277): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         decinfo.c
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(275): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(276): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(277): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         Компиляция...
+         dequant.c
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(275): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(276): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(277): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         fragment.c
+         huffdec.c
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(275): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(276): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(277): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         info.c
+         internal.c
+         state.c
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(275): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(276): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(277): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         mmxfrag.c
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\x86_vc\../state.h(275): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\x86_vc\../state.h(276): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\x86_vc\../state.h(277): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         mmxidct.c
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\x86_vc\../state.h(275): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\x86_vc\../state.h(276): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\x86_vc\../state.h(277): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         mmxstate.c
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\x86_vc\../state.h(275): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\x86_vc\../state.h(276): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\x86_vc\../state.h(277): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         x86state.c
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\x86_vc\../state.h(275): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\x86_vc\../state.h(276): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\x86_vc\../state.h(277): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I..\..\..\include /I..\..\..\lib /I..\..\..\..\libogg\include /I..\..\..\..\..\..\..\core\ogg\libogg\include\ /I"E:\tools\vcpkg\installed\x64-windows-static\include" /I"..\..\..\..\libogg-1.2.0\include" /I..\..\..\..\ogg\include /I..\..\..\..\..\..\..\core\ogg\libogg\include /I"E:\tools\vcpkg\installed\x64-windows-static\include" /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /GL /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _BIND_TO_CURRENT_CRT_VERSION /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D LIBTHEORA_EXPORTS /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _UNICODE /D UNICODE /GF /Gm- /MD /GS- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\decode1.obj" /Fd"x64\Release\vc140.pdb" /Gd /TC /wd4244 /wd4267 /wd4057 /wd4100 /wd4245 /errorReport:prompt ..\..\..\lib\decode.c
+         decode.c
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(275): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(276): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(277): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I..\..\..\include /I..\..\..\lib /I..\..\..\..\libogg\include /I..\..\..\..\..\..\..\core\ogg\libogg\include\ /I"E:\tools\vcpkg\installed\x64-windows-static\include" /I"..\..\..\..\libogg-1.2.0\include" /I..\..\..\..\ogg\include /I..\..\..\..\..\..\..\core\ogg\libogg\include /I"E:\tools\vcpkg\installed\x64-windows-static\include" /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /GL /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _BIND_TO_CURRENT_CRT_VERSION /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D LIBTHEORA_EXPORTS /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _UNICODE /D UNICODE /GF /Gm- /MD /GS- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\idct1.obj" /Fd"x64\Release\vc140.pdb" /Gd /TC /wd4244 /wd4267 /wd4057 /wd4100 /wd4245 /errorReport:prompt ..\..\..\lib\idct.c
+         idct.c
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I..\..\..\include /I..\..\..\lib /I..\..\..\..\libogg\include /I..\..\..\..\..\..\..\core\ogg\libogg\include\ /I"E:\tools\vcpkg\installed\x64-windows-static\include" /I"..\..\..\..\libogg-1.2.0\include" /I..\..\..\..\ogg\include /I..\..\..\..\..\..\..\core\ogg\libogg\include /I"E:\tools\vcpkg\installed\x64-windows-static\include" /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /GL /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _BIND_TO_CURRENT_CRT_VERSION /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D LIBTHEORA_EXPORTS /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _UNICODE /D UNICODE /GF /Gm- /MD /GS- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\quant1.obj" /Fd"x64\Release\vc140.pdb" /Gd /TC /wd4244 /wd4267 /wd4057 /wd4100 /wd4245 /errorReport:prompt ..\..\..\lib\quant.c
+         quant.c
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(275): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(276): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\state.h(277): warning C4214: нестандартное расширение: типы битовых полей, отличные от int
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\tools\vcpkg\buildtrees\libtheora\win32\VS2010\x64\Release\libtheora.dll" /NOLOGO /LIBPATH:..\..\..\..\libogg\win32\VS2010\x64\Release /LIBPATH:"E:\tools\vcpkg\installed\x64-windows-static\lib" /LIBPATH:"..\..\..\..\libogg-1.2.0\win32\VS2010\x64\Release" /LIBPATH:..\..\..\..\ogg\win32\VS2010\x64\Release /LIBPATH:..\..\..\..\..\..\..\core\ogg\libogg\win32\VS2010\x64\Release ogg.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "E:\tools\vcpkg\installed\x64-windows-static\lib\*.lib" /DEF:"..\..\..\lib\theora.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\tools\vcpkg\buildtrees\libtheora\win32\VS2010\x64\Release\libtheora.pdb" /LTCG:incremental /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"E:\tools\vcpkg\buildtrees\libtheora\win32\VS2010\x64\Release\libtheora.lib" /MACHINE:X64 /DLL x64\Release\analyze.obj
+         x64\Release\encapiwrapper.obj
+         x64\Release\encfrag.obj
+         x64\Release\encinfo.obj
+         x64\Release\encode.obj
+         x64\Release\enquant.obj
+         x64\Release\fdct.obj
+         x64\Release\huffenc.obj
+         x64\Release\mathops.obj
+         x64\Release\mcenc.obj
+         x64\Release\rate.obj
+         x64\Release\tokenize.obj
+         x64\Release\mmxencfrag.obj
+         x64\Release\mmxfdct.obj
+         x64\Release\x86cpu.obj
+         x64\Release\x86enc.obj
+         x64\Release\apiwrapper.obj
+         x64\Release\bitpack.obj
+         x64\Release\decapiwrapper.obj
+         x64\Release\decinfo.obj
+         x64\Release\dequant.obj
+         x64\Release\fragment.obj
+         x64\Release\huffdec.obj
+         x64\Release\info.obj
+         x64\Release\internal.obj
+         x64\Release\state.obj
+         x64\Release\mmxfrag.obj
+         x64\Release\mmxidct.obj
+         x64\Release\mmxstate.obj
+         x64\Release\x86state.obj
+         x64\Release\decode1.obj
+         x64\Release\idct1.obj
+         x64\Release\quant1.obj
+            Создается библиотека E:\tools\vcpkg\buildtrees\libtheora\win32\VS2010\x64\Release\libtheora.lib и объект E:\tools\vcpkg\buildtrees\libtheora\win32\VS2010\x64\Release\libtheora.exp
+         Создание кода
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\quant.c(113): warning C4701: использована потенциально неинициализированная локальная переменная "plj"
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\huffdec.c(308): warning C4701: использована потенциально неинициализированная локальная переменная "best_nbits"
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\tokenize.c(1331): warning C4700: использована неинициализированная локальная переменная "ti"
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\tokenize.c(1094): warning C4700: использована неинициализированная локальная переменная "token1"
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\tokenize.c(1095): warning C4700: использована неинициализированная локальная переменная "eb1"
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\tokenize.c(490): warning C4700: использована неинициализированная локальная переменная "best_bits"
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\tokenize.c(491): warning C4700: использована неинициализированная локальная переменная "best_next"
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\tokenize.c(492): warning C4700: использована неинициализированная локальная переменная "best_token"
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\tokenize.c(493): warning C4700: использована неинициализированная локальная переменная "best_eb"
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\tokenize.c(494): warning C4700: использована неинициализированная локальная переменная "best_qc"
+     1>e:\tools\vcpkg\buildtrees\libtheora\lib\analyze.c(879): warning C4701: использована потенциально неинициализированная локальная переменная "qs"
+         All 325 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Создание кода завершено
+         libtheora_dynamic.vcxproj -> E:\tools\vcpkg\buildtrees\libtheora\win32\VS2010\x64\Release\libtheora.dll
+         libtheora_dynamic.vcxproj -> E:\tools\vcpkg\buildtrees\libtheora\win32\VS2010\x64\Release\libtheora.pdb (Full PDB)
+       AppLocalFromInstalled:
+         C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "E:\tools\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\tools\vcpkg\buildtrees\libtheora\win32\VS2010\x64\Release\libtheora.dll" "E:\tools\vcpkg\installed\x64-windows-static\bin" "x64\Release\libtheora.tlog\libtheora.write.1u.tlog" "x64\Release\vcpkg.applocal.log"
+         E:\tools\vcpkg\buildtrees\libtheora\win32\VS2010\x64\Release\VCRUNTIME140.dll
+       FinalizeBuildStatus:
+         Файл "x64\Release\libtheora.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Release\libtheora.tlog\libtheora.lastbuildstate".
+     1>Сборка проекта "E:\tools\vcpkg\buildtrees\libtheora\win32\VS2010\libtheora\libtheora_dynamic.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:33.39

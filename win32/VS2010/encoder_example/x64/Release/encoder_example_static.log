@@ -1,0 +1,100 @@
+﻿Сборка начата Ср 31 07 19 23:19:28.
+     1>Проект "E:\tools\vcpkg\buildtrees\libtheora\win32\VS2010\encoder_example\encoder_example_static.vcxproj" в узле 3 (целевые объекты Rebuild).
+     1>PrepareForBuild:
+         Создание каталога "x64\Release\encoder_.AD710263.tlog\".
+       InitializeBuildStatus:
+         Создание "x64\Release\encoder_.AD710263.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       VcpkgTripletSelection:
+         Using triplet "x64-windows-static" from "E:\tools\vcpkg\installed\x64-windows-static\"
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I..\..\..\include /I..\..\..\..\libogg\include /I..\..\..\..\libvorbis\include /I"..\..\..\..\libvorbis-1.3.1\include" /I..\..\..\..\vorbis\include /I..\..\..\..\..\..\vorbis\libs\libvorbis\include /I"..\..\..\..\libogg-1.2.0\include" /I..\..\..\..\ogg\include /I..\..\..\..\..\..\..\core\ogg\libogg\include /I"E:\tools\vcpkg\installed\x64-windows-static\include" /Zi /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TC /errorReport:prompt ..\..\..\examples\encoder_example.c ..\..\getopt.c ..\..\getopt1.c
+         encoder_example.c
+     1>..\..\..\examples\encoder_example.c(57): warning C4211: нестандартное расширение: переопределение extern в static
+     1>..\..\..\examples\encoder_example.c(57): error C2491: rint: определение dllimport функция не разрешено
+     1>..\..\..\examples\encoder_example.c(295): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>..\..\..\examples\encoder_example.c(264): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(2260): note:  см. объявление "sscanf"
+     1>..\..\..\examples\encoder_example.c(268): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(2260): note:  см. объявление "sscanf"
+     1>..\..\..\examples\encoder_example.c(272): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(2260): note:  см. объявление "sscanf"
+     1>..\..\..\examples\encoder_example.c(280): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(2260): note:  см. объявление "sscanf"
+     1>..\..\..\examples\encoder_example.c(386): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\..\examples\encoder_example.c(390): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\..\examples\encoder_example.c(395): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\..\examples\encoder_example.c(472): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\..\examples\encoder_example.c(476): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\..\examples\encoder_example.c(481): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\..\examples\encoder_example.c(496): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\..\examples\encoder_example.c(501): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\..\examples\encoder_example.c(506): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\..\examples\encoder_example.c(523): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\..\examples\encoder_example.c(528): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\..\examples\encoder_example.c(533): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\..\examples\encoder_example.c(609): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\..\examples\encoder_example.c(611): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\..\examples\encoder_example.c(615): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\..\examples\encoder_example.c(617): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\..\examples\encoder_example.c(621): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\..\examples\encoder_example.c(624): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\..\examples\encoder_example.c(739): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+     1>..\..\..\examples\encoder_example.c(756): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+     1>..\..\..\examples\encoder_example.c(761): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+     1>..\..\..\examples\encoder_example.c(767): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+     1>..\..\..\examples\encoder_example.c(789): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+     1>..\..\..\examples\encoder_example.c(793): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+     1>..\..\..\examples\encoder_example.c(817): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+     1>..\..\..\examples\encoder_example.c(732): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(207): note:  см. объявление "fopen"
+     1>..\..\..\examples\encoder_example.c(964): warning C4459: объявление "audio" скрывает глобальное объявление
+         ..\..\..\examples\encoder_example.c(103): note:  см. объявление "audio"
+     1>..\..\..\examples\encoder_example.c(1002): warning C4244: +=: преобразование "ogg_int64_t" в "int", возможна потеря данных
+     1>..\..\..\examples\encoder_example.c(1013): warning C4244: -=: преобразование "ogg_int64_t" в "int", возможна потеря данных
+     1>..\..\..\examples\encoder_example.c(972): warning C4244: инициализация: преобразование "double" в "ogg_int64_t", возможна потеря данных
+     1>..\..\..\examples\encoder_example.c(973): warning C4244: инициализация: преобразование "double" в "ogg_int64_t", возможна потеря данных
+     1>..\..\..\examples\encoder_example.c(986): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>..\..\..\examples\encoder_example.c(1053): warning C4459: объявление "video" скрывает глобальное объявление
+         ..\..\..\examples\encoder_example.c(104): note:  см. объявление "video"
+     1>..\..\..\examples\encoder_example.c(1063): warning C4244: =: преобразование "double" в "ogg_int64_t", возможна потеря данных
+     1>..\..\..\examples\encoder_example.c(1064): warning C4244: =: преобразование "double" в "ogg_int64_t", возможна потеря данных
+     1>..\..\..\examples\encoder_example.c(1087): warning C4456: объявление "ret" скрывает предыдущее локальное объявление
+         ..\..\..\examples\encoder_example.c(1055): note:  см. объявление "ret"
+     1>..\..\..\examples\encoder_example.c(1087): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>..\..\..\examples\encoder_example.c(1221): warning C4459: объявление "video" скрывает глобальное объявление
+         ..\..\..\examples\encoder_example.c(104): note:  см. объявление "video"
+     1>..\..\..\examples\encoder_example.c(1396): warning C4244: =: преобразование "double" в "ogg_uint32_t", возможна потеря данных
+     1>..\..\..\examples\encoder_example.c(1521): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>..\..\..\examples\encoder_example.c(1556): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\..\examples\encoder_example.c(1557): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>..\..\..\examples\encoder_example.c(1616): warning C4018: >: несоответствие типов со знаком и без знака
+     1>..\..\..\examples\encoder_example.c(1686): warning C4456: объявление "ret" скрывает предыдущее локальное объявление
+         ..\..\..\examples\encoder_example.c(1272): note:  см. объявление "ret"
+     1>..\..\..\examples\encoder_example.c(1794): warning C4456: объявление "op" скрывает предыдущее локальное объявление
+         ..\..\..\examples\encoder_example.c(1279): note:  см. объявление "op"
+     1>..\..\..\examples\encoder_example.c(1795): warning C4456: объявление "ret" скрывает предыдущее локальное объявление
+         ..\..\..\examples\encoder_example.c(1272): note:  см. объявление "ret"
+     1>..\..\..\examples\encoder_example.c(1326): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(207): note:  см. объявление "fopen"
+     1>..\..\..\examples\encoder_example.c(1437): warning C4996: 'tmpfile': This function or variable may be unsafe. Consider using tmpfile_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(429): note:  см. объявление "tmpfile"
+     1>..\..\..\examples\encoder_example.c(1445): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(207): note:  см. объявление "fopen"
+     1>..\..\..\examples\encoder_example.c(1453): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdio.h(207): note:  см. объявление "fopen"
+         getopt.c
+     1>..\..\getopt.c(212): warning C4131: my_index: используется декларатор старого стиля
+     1>..\..\getopt.c(302): warning C4131: exchange: используется декларатор старого стиля
+     1>..\..\getopt.c(387): warning C4131: _getopt_initialize: используется декларатор старого стиля
+     1>..\..\getopt.c(386): warning C4100: argv: неиспользованный формальный параметр
+     1>..\..\getopt.c(386): warning C4100: argc: неиспользованный формальный параметр
+     1>..\..\getopt.c(509): warning C4131: _getopt_internal: используется декларатор старого стиля
+     1>..\..\getopt.c(965): warning C4131: getopt: используется декларатор старого стиля
+         getopt1.c
+     1>..\..\getopt1.c(68): warning C4131: getopt_long: используется декларатор старого стиля
+     1>..\..\getopt1.c(84): warning C4131: getopt_long_only: используется декларатор старого стиля
+     1>Сборка проекта "E:\tools\vcpkg\buildtrees\libtheora\win32\VS2010\encoder_example\encoder_example_static.vcxproj" завершена (целевые объекты Rebuild) с ошибкой.
+
+Ошибка сборки.
+
+Затраченное время: 00:00:01.82
